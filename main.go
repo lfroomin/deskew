@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	imageFilename := "1661916334.jpg"
+	imageFilename := "image.jpg"
 
 	img := gocv.IMRead(imageFilename, gocv.IMReadUnchanged)
 	defer closeImage(&img)
